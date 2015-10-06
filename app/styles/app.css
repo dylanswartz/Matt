@@ -1,0 +1,11 @@
+html, body, .application, .application > * {
+    overflow : auto;
+    position : relative;
+    height   : 100%;
+    margin   : 0px;
+}
+
+.application h3 {
+    -webkit-filter : invert(100%);
+    filter         : invert(100%);
+}
